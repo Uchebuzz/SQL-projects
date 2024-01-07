@@ -1,1 +1,16 @@
+SELECT * 
+FROM 
+	`netflix_titles (2)`
+WHERE 
+ country = 'United Kingdom' and
+ type = 'Movie'
+
+--------
+SELECT * 
+FROM 
+	`netflix_titles (2)`
+WHERE 
+ country = 'United Kingdom'
+  type = 'movie'
+  date_added > 'September 6, 2016'
 
