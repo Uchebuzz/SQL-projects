@@ -5,7 +5,7 @@ WHERE
  country = 'United Kingdom' and
  type = 'Movie'
 
---------
+--
 SELECT * 
 FROM 
 	`netflix_titles (2)`
@@ -14,3 +14,14 @@ WHERE
   type = 'movie'
   date_added > 'September 6, 2016'
 
+
+--
+Use netflix;
+
+SELECT * 
+FROM 
+	`netflix_titles (2)`
+WHERE 
+ type = 'TV Show' and
+ rating = 'TV-Y7'
+limit 1
